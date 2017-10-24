@@ -113,12 +113,52 @@ HTTP verb | URI | Parameters | Description
 ----------|-----|------------|------------
 GET | `/` | None | Return artist infos
 UPDATE | `/` | {"id":"<artists_id", ...} | Update Artist infos
-
+DELETE | `/` | None | Delete Artist.
 
 ### Albums
+`/<team_name>/albums`
+
 HTTP verb | URI | Parameters | Description
 ----------|-----|------------|------------
+GET | `/` | None | Returns all albums of a team
+POST/PUT | `/` | {"name":"album_name", ...} | Add an new album to team's pool
+
+`/<team_name>/albums/<albums_id>`
+
+HTTP verb | URI | Parameters | Description
+----------|-----|------------|------------
+GET | `/` | None | Return album infos
+UPDATE | `/` | {"id":"<albums_id", ...} | Update album infos
+DELETE | `/` | None | Delete album.
 
 ### Musicians
+`/<team_name>/musicians`
+
 HTTP verb | URI | Parameters | Description
 ----------|-----|------------|------------
+GET | `/` | None | Returns all musicians of a team
+POST/PUT | `/` | {"name":"musician_name", ...} | Add an new musician to team's pool
+
+`/<team_name>/musicians/<musicians_id>`
+
+HTTP verb | URI | Parameters | Description
+----------|-----|------------|------------
+GET | `/` | None | Return musician infos
+UPDATE | `/` | {"id":"<musicians_id", ...} | Update musician infos
+DELETE | `/` | None | Delete musician.
+
+### Instruments
+`/<team_name>/instruments`
+
+HTTP verb | URI | Parameters | Description
+----------|-----|------------|------------
+GET | `/` | None | Returns all instruments of a team
+POST/PUT | `/` | {"name":"instrument_name", ...} | Add an new instrument to team's pool
+
+`/<team_name>/instruments/<instruments_id>`
+
+HTTP verb | URI | Parameters | Description
+----------|-----|------------|------------
+GET | `/` | None | Return instrument infos
+UPDATE | `/` | {"id":"<instruments_id", ...} | Update instrument infos
+DELETE | `/` | None | Delete instrument.
