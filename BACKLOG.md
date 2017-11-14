@@ -1,4 +1,4 @@
-# Radio Bretzel - Product Backlog
+# Radio Bretzel API - Product Backlog
 
 ID | TITLE | PRIORITY | ESTIMATION (story pts) | DESCRIPTION | COMMENTS
 ---|-------|----------|------------------------|-------------|---------
