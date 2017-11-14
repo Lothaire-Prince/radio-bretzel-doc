@@ -5,7 +5,7 @@ ID | TITLE | PRIORITY | ESTIMATION (story pts) | DESCRIPTION | COMMENTS
  | Écouter de la musique | 150 | 50 | Les utilisateurs de l'application web peuvent écouter les mêmes morceaux de musique en même temps, comme sur une radio. |
  | Ajouter de musique | 140 | 50 | L'utilisateur peut ajouter des morceaux de musique à la liste des morceaux pouvant être lus par la radio |
  | Création d'équipes | 130 | 60 | Les utilisateurs sont regroupés par équipes **indépendantes** et **isolées** les unes des autres, appelées "Teams". Elles sont administrées par un "Chief". Un utilisateur est propre à une Team. |
- | Création de compte - Nouvelle Team | | | Lors de la création d'une Team, le compte utilisateur du Chief est créé | 
+ | Création de compte - Nouvelle Team | | | Lors de la création d'une Team, le compte utilisateur du Chief est créé |
  | Création de compte - Rejoindre une Team | 120 | 60 | L'utilisateur peut se créer un compte et envoyer une demande au Chief d'une Team afin de la rejoindre. |
  | Restreindre l'accès aux radios | | | Chaque Team possède sa propre radio accessible uniquement à ses membres. |
  | Authentification & Gestion des droits | 110 | 90 | L'utilisateur doit s'authentifier dans une Team. Cette action lui donne le droit d'accéder au flux radio  |
