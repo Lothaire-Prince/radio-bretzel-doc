@@ -5,12 +5,11 @@ EPIC ID | STORY ID | STORY PURPOSE | PRIORITY | ESTIMATION | COMMENTS
 1 | 1-1 | Générer un flux radio à partir d’une liste de fichiers | 1090 |  | La fonctionnalité permettra de fournir plusieurs flux audio simultanés générés par un seul script LiquidSoap, servant de modèle.
 1 | 1-2 | Faire une liste de lecture dynamique | 1080 | | Le script LiquidSoap prendra en argument obligatoire un identifiant de source. Le script devra, avant la fin de la lecture de chaque morceau, envoyer une requête HTTP renseignant son identifiant de source à un serveur web qui lui renverra l'URI du prochain morceau à jouer.
 1 | 1-3 | Permettre à l'utilisateur de se connecter à un flux audio au travers d'un navigateur Web | 1070 | | Le script devra envoyer le flux audio généré vers un serveur web, qui le diffusera en HTTP (proxy)
-1 | 1-5 | Permettre à l'utilisateur de démarrer ou arrêter la génération du flux audio | 1060 | | Des instances containérisées de LiquidSoap devront pouvoir être **créés** puis **détruits** à la volée par l'application.
-1 | 1-6 | Relancer automatiquement un flux audio défaillant | 1050 | |  Les données de tous les containers lancés devront être enregistrées et régulièrement mises à jour. L'application devra sonder en permanence l'état des containers LiquidSoap, et les relancer avec les mêmes paramètres en cas de chute
-2 | 2-1 | Création des schémas de données ‘Tracks’ | 990 | |
-2 | 2-2 | Permettre l'ajout de fichier audio sur le server | 980 | |
-2 | 2-3 | Effectuer une vérification des fichiers (sécurité) | 970 | | Les fichiers devront être testés dans un nouveau container.
-2 | 2-4 | Permettre au flux audio de lire tous les morceaux ajoutés (liste de lecture dynamique) | 960 | | L'algorithme de sélection du prochain morceau doit tenir compte des fichiers récemment uploadés et dont les tests se sont passé sans erreur.
+1 | 1-4 | Permettre à l'utilisateur de démarrer ou arrêter la génération du flux audio | 1060 | | Des instances containérisées de LiquidSoap devront pouvoir être **créés** puis **détruits** à la volée par l'application.
+1 | 1-5 | Relancer automatiquement un flux audio défaillant | 1050 | |  Les données de tous les containers lancés devront être enregistrées et régulièrement mises à jour. L'application devra sonder en permanence l'état des containers LiquidSoap, et les relancer avec les mêmes paramètres en cas de chute
+2 | 2-1 | Permettre l'ajout de fichier audio sur le server | 980 | |
+2 | 2-2 | Effectuer une vérification des fichiers (sécurité) | 970 | | Les fichiers devront être testés dans un nouveau container.
+2 | 2-3 | Permettre au flux audio de lire tous les morceaux ajoutés (liste de lecture dynamique) | 960 | | L'algorithme de sélection du prochain morceau doit tenir compte des fichiers récemment uploadés et dont les tests se sont passé sans erreur.
 3 | 3-1 | Créer les schémas de données 'User' et 'Team' | 890 | | Un User ne peut avoir **qu'une seule Team**
 3 | 3-2 | Attacher automatiquement les Tracks à une Team lors de leur upload | 880 | | Chaque Team a son propre _Pool_ de musique, indépendant de celui des autres Teams
 4 | 4-1 | Permettre à l'utilisateur de réaliser une demande de création de Team, en renseignant une série d'informations sur lui et la Team qu'il souhaite créer | 790 | | Les données renseignées permettront à la fois de
